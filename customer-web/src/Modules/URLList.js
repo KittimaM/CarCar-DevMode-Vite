@@ -1,0 +1,40 @@
+const URLList = {
+  // Customer
+  CustomerProfile: "customer/profile",
+  CustomerLogin: "customer/login",
+  CustomerPasswordForgot: "customer/password/forgot",
+  CustomerPasswordReset: "customer/password/reset",
+  // Admin (used by customer for some APIs)
+  AdminCustomer: "admin/customer",
+  AdminCustomerCar: "admin/customer-car",
+  AdminCarSize: "admin/carsize",
+  AdminService: "admin/service",
+  AdminChannel: "admin/channel",
+  AdminOnLeaveType: "admin/onleave/type",
+  AdminPaymentType: "admin/payment-acount",
+  AdminStaff: "admin/user",
+  AdminStatusGroup: "admin/status-group",
+  AdminStatus: "admin/status",
+  AdminRole: "admin/role",
+  AdminRoleLabel: "admin/role-label",
+  AdminOnLeavePersonal: "admin/onleave/personal",
+  AdminOnLeave: "admin/onleave",
+  AdminOnLeaveApprove: "admin/onleave/approve",
+  AdminLatestOnLeaveByTypePersonal: "admin/onleave/detail/latest/personal",
+  AdminLatestOnLeaveByTypeList: "admin/onleave/detail/latest/list",
+  AdminPermission: "admin/permission",
+  AdminTemplate: "admin/template",
+  AdminSearch: "admin/search",
+  AdminLogin: "admin/login",
+  AdminGeneral: "admin/general",
+  Modules: "admin/module",
+  RolePermission: "admin/role-permission",
+  Province: "admin/province",
+  BookingBranches: "customer/booking/branches",
+  BookingAvailableSlots: "customer/booking/available-slots",
+
+  CustomerCar: "customer/car",
+  BookingServiceRates: "customer/booking/service-rates",
+};
+
+export default URLList;
